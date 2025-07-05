@@ -4,49 +4,69 @@ Generate catchy YouTube titles and SEO-optimized descriptions from video scripts
 
 
 
-🚀 What the Project Does
-	  
-    Generates YouTube titles (under 70 characters) and concise, SEO-rich descriptions (25–40 words).
+## 🚀 Features
 
-    Performs keyword matching, lemmatization, and calculates NLP metrics such as precision, recall, F1-score, and ROUGE.
+	✅ AI-generated title (≤70 characters) and SEO description (25–40 words)
 
-	Simulates user feedback for quality assurance.
+	🔍 Keyword matching with precision, recall, F1-score, and ROUGE evaluation
 
-    Handles edge cases like meaningless input gracefully.
+	💬 Simulated user feedback system
 
-    Evaluates output performance across time and relevance.
+	🧪 Handles edge cases and tracks generation performance
 
+## 🛠️ Requirements
 
+	Python 3.x
 
+	google-generativeai
 
-💡 Why This Project is Useful
+	evaluate
 
-    Creating compelling YouTube metadata is critical for visibility and engagement. 
+	rouge-score
 
-    This tool:
+## 📦 Installation
 
-        Saves time for content creators and marketers.
+	pip install google-generativeai evaluate rouge-score nltk
+ 
+## 📌 What the Project Does
+	This project takes a raw video script as input and returns a well-structured YouTube title and SEO-optimized description using Gemini 2.5 Flash. 
+ 	
+  	It also:
 
-        Ensures keyword relevance and SEO optimization automatically.
+		Performs keyword matching and lemmatization
 
-        Provides a repeatable and testable way to evaluate generative models in content workflows.
+		Calculates NLP metrics like precision, recall, F1-score, and ROUGE
 
+		Simulates user feedback
 
+		Benchmarks speed and edge case handling
 
+## 💡 Why This Project is Useful
 
-🧑‍💻 Where to Get Help
+	Creating effective YouTube metadata boosts discoverability and viewer engagement. 
+ 	
+  	This tool:
 
-    If you encounter bugs or unexpected behavior:
+		Saves time for content creators
 
-        Open an issue on GitHub
+		Ensures keyword-rich, optimized content
 
-        Check for missing dependencies or model access issues
+		Offers reproducible metrics for evaluating text generation models
 
-        Refer to Google Gemini API documentation
+		Makes content SEO-friendly without manual effort
 
+## 🧑‍💻 Where to Get Help
 
+	If you run into issues:
 
+		Submit a GitHub issue
 
-👥 Who Maintains and Contributes
+		Check installed packages and API credentials
 
-    This project is maintained by "Pranesh Shivaachalam R M" and is open to community contributions. Pull requests, suggestions, and issue reports are welcome!
+		Refer to Google's Gemini API documentation
+
+## 👥 Who Maintains and Contributes
+
+	Maintained by "Pranesh Shivaachalam R M" and open to contributors!
+
+	Feel free to fork the repo, submit pull requests, or suggest improvements via GitHub Issues.
