@@ -26,7 +26,7 @@ Generate catchy YouTube titles and SEO-optimized descriptions from video scripts
 
 ## 📦 Installation
 
-	pip install google-generativeai evaluate rouge-score nltk
+	pip install google-generativeai evaluate rouge-score
  
 ## 📌 What the Project Does
 	This project takes a raw video script as input and returns a well-structured YouTube title and SEO-optimized description using Gemini 2.5 Flash. 
