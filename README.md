@@ -2,37 +2,51 @@
 Generate catchy YouTube titles and SEO-optimized descriptions from video scripts using Gemini 2.5 Flash. Includes keyword matching, NLP evaluation metrics (precision, recall, F1, ROUGE), user feedback simulation, and performance benchmarking across varied input cases.
 
 
-🎬 YouTube Title & Description Generator with Gemini 2.5 Flash
-This project automatically generates catchy YouTube titles and SEO-optimized descriptions from video scripts using Google's Gemini 2.5 Flash model. It integrates NLP metrics to evaluate performance and includes simulated user feedback and keyword alignment analysis.
+
 
 🚀 What the Project Does
-Generates YouTube titles (under 70 characters) and concise, SEO-rich descriptions (25–40 words).
+	  
+    Generates YouTube titles (under 70 characters) and concise, SEO-rich descriptions (25–40 words).
 
-Performs keyword matching, lemmatization, and calculates NLP metrics such as precision, recall, F1-score, and ROUGE.
+    Performs keyword matching, lemmatization, and calculates NLP metrics such as precision, recall, F1-score, and ROUGE.
 
-Simulates user feedback for quality assurance.
+	Simulates user feedback for quality assurance.
 
-Handles edge cases like meaningless input gracefully.
+    Handles edge cases like meaningless input gracefully.
 
-Evaluates output performance across time and relevance.
+    Evaluates output performance across time and relevance.
+
+
+
 
 💡 Why This Project is Useful
-Creating compelling YouTube metadata is critical for visibility and engagement. This tool:
 
-Saves time for content creators and marketers.
+    Creating compelling YouTube metadata is critical for visibility and engagement. 
 
-Ensures keyword relevance and SEO optimization automatically.
+    This tool:
 
-Provides a repeatable and testable way to evaluate generative models in content workflows.
+        Saves time for content creators and marketers.
+
+        Ensures keyword relevance and SEO optimization automatically.
+
+        Provides a repeatable and testable way to evaluate generative models in content workflows.
+
+
+
 
 🧑‍💻 Where to Get Help
-If you encounter bugs or unexpected behavior:
 
-Open an issue on GitHub
+    If you encounter bugs or unexpected behavior:
 
-Check for missing dependencies or model access issues
+        Open an issue on GitHub
 
-Refer to Google Gemini API documentation
+        Check for missing dependencies or model access issues
+
+        Refer to Google Gemini API documentation
+
+
+
 
 👥 Who Maintains and Contributes
-This project is maintained by [Your Name] and is open to community contributions. Pull requests, suggestions, and issue reports are welcome!
+
+    This project is maintained by "Pranesh Shivaachalam R M" and is open to community contributions. Pull requests, suggestions, and issue reports are welcome!
